@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\libs">
+      <UniqueIdentifier>{6f167ba8-bafb-4293-8679-6a86d6521dda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\libs\zlib">
+      <UniqueIdentifier>{c71c275b-cc3e-450e-ba77-852fd2776358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\libs\minizip">
+      <UniqueIdentifier>{1a948967-7164-4cd4-826f-e5b5a657e8c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\dependencies\zlib-1.2.13\crc32.c">
+      <Filter>ソース ファイル\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\zlib-1.2.13\deflate.c">
+      <Filter>ソース ファイル\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\zlib-1.2.13\infback.c">
+      <Filter>ソース ファイル\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\zlib-1.2.13\inffast.c">
+      <Filter>ソース ファイル\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\zlib-1.2.13\inflate.c">
+      <Filter>ソース ファイル\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\zlib-1.2.13\inftrees.c">
+      <Filter>ソース ファイル\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\zlib-1.2.13\trees.c">
+      <Filter>ソース ファイル\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\zlib-1.2.13\uncompr.c">
+      <Filter>ソース ファイル\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\zlib-1.2.13\adler32.c">
+      <Filter>ソース ファイル\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\zlib-1.2.13\compress.c">
+      <Filter>ソース ファイル\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\zlib-1.2.13\contrib\minizip\zip.c">
+      <Filter>ソース ファイル\libs\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\zlib-1.2.13\contrib\minizip\unzip.c">
+      <Filter>ソース ファイル\libs\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\zlib-1.2.13\zutil.c">
+      <Filter>ソース ファイル\libs\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\tinyxml2-9.0.0\tinyxml2.cpp">
+      <Filter>ソース ファイル\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\zlib-1.2.13\contrib\minizip\ioapi.c">
+      <Filter>ソース ファイル\libs\minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cpp_pptx_template.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tool_src\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

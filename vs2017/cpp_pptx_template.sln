@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 15 for Windows Desktop
+VisualStudioVersion = 15.0.28307.1758
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp_pptx_template", "cpp_pptx_template.vcxproj", "{72B160B5-2AFD-42DB-B262-9CBC86D34092}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72B160B5-2AFD-42DB-B262-9CBC86D34092}.Debug|x64.ActiveCfg = Debug|x64
+		{72B160B5-2AFD-42DB-B262-9CBC86D34092}.Debug|x64.Build.0 = Debug|x64
+		{72B160B5-2AFD-42DB-B262-9CBC86D34092}.Release|x64.ActiveCfg = Release|x64
+		{72B160B5-2AFD-42DB-B262-9CBC86D34092}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F46858A9-CB9D-4D79-A740-37F9748E598E}
+	EndGlobalSection
+EndGlobal

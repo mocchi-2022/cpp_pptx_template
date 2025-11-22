@@ -1,0 +1,72 @@
+﻿[
+  {
+    "images": {
+      "image_1": {
+        "image_data": 0
+      },
+      "image_2": {
+        "image_data": 1
+      }
+    },
+    "shapes": {
+      "image_caption_2": {
+        "text": "cap2"
+      },
+      "page_title": {
+        "text": "Hello first title"
+      }
+    },
+    "template_slide": 0
+  },
+  {
+    "images": {
+      "image": {
+        "image_data": 2
+      }
+    },
+    "shapes": {
+      "image_caption": {
+        "text": "キャプション試行"
+      },
+      "page_title": {
+        "text": "2nd"
+      }
+    },
+    "template_slide": 1
+  },
+  {
+    "images": {
+      "image_1": {
+        "image_data": 3
+      },
+      "image_2": {
+        "image_data": 2
+      }
+    },
+    "shapes": {
+      "image_caption_1": {
+        "text": "cap1"
+      },
+      "page_title": {
+        "text": "Hello 3rd title"
+      }
+    },
+    "template_slide": 0
+  },
+  {
+    "images": {
+      "image": {
+        "image_data": 3
+      }
+    },
+    "shapes": {
+      "image_caption": {
+        "text": "CAPTION"
+      },
+      "page_title": {
+        "text": "last"
+      }
+    },
+    "template_slide": 1
+  }
+]
